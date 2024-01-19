@@ -10,6 +10,7 @@ import { HeroSectionComponent } from './hero-section/hero-section.component';
 import { CardsComponent } from './cards/cards.component';
 import { ButtonComponent } from './button/button.component';
 import { HomePageModule } from './home-page/home-page.module';
+import { UserLoginModule } from './user-login/user-login.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HomePageModule } from './home-page/home-page.module';
     NgbModule,
     SharedModule,
     DashboardModule,
-    HomePageModule
+    HomePageModule,
+    UserLoginModule
   ],
   providers: [],
   bootstrap: [AppComponent]
